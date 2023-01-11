@@ -1,20 +1,29 @@
 # FCC CITY-SKYLINE
 
-> One paragraph statement about the project.
+> A basic HTML and CSS element to demostrate styling.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./fcc-docs-city-skyline.netlify.app_.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5 elements
+  - `div`.
+- CSS properties
+  - CSS Variables for reusable CSS values,
+  - CSS Media Query for page responsiveness using `@media` rule,
+  - CSS Positioning `fixed`,
+  - CSS Background for page aesthetic using `background-color`, `background`.
+  - `div`, `body`.
+- Linters
+  - [Prettier](https://prettier.io/),
+  - [Stylelint](https://stylelint.io/).
+- GitHub Action
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://fcc-docs-city-skyline.netlify.app/)
 
 ### Development (Running locally)
 
@@ -71,6 +80,7 @@ yarn hint
 
 - Github: [@moshoodabdullahi](https://github.com/moshoodabdullahi)
 - Linkedin: [@moshoodabdullahi](https://www.linkedin.com/in/moshoodabdullahi/)
+- FreeCodeCamp: [@moshoodabdullahi](https://www.freecodecamp.org/moshoodabdullahi)
 
 ## 🤝 Contributing
 
@@ -84,9 +94,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- [FreeCodeCamp](https://www.freecodecamp.org/)
 
 ## 📝 License
 
