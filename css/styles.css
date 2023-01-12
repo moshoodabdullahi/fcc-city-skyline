@@ -1,9 +1,9 @@
 :root {
   --building-color1: #aa80ff;
-  --building-color2: #66cc99;
-  --building-color3: #cc6699;
+  --building-color2: #6c9;
+  --building-color3: #c69;
   --building-color4: #538cc6;
-  --window-color1: #bb99ff;
+  --window-color1: #b9f;
   --window-color2: #8cd9b3;
   --window-color3: #d98cb3;
   --window-color4: #8cb3d9;
@@ -19,7 +19,8 @@ body {
   overflow: hidden;
 }
 
-.background-buildings, .foreground-buildings {
+.background-buildings,
+.foreground-buildings {
   width: 100%;
   height: 100%;
   display: flex;
@@ -42,12 +43,13 @@ body {
 }
 
 .sky {
-  background: radial-gradient(
+  background:
+    radial-gradient(
       closest-corner circle at 15% 15%,
       #ffcf33,
       #ffcf33 20%,
-      #ffff66 21%,
-      #bbeeff 100%
+      #ff6 21%,
+      #bef 100%
     );
 }
 
@@ -60,11 +62,11 @@ body {
 .bb1a {
   width: 70%;
 }
-  
+
 .bb1b {
   width: 80%;
 }
-  
+
 .bb1c {
   width: 90%;
 }
@@ -72,7 +74,8 @@ body {
 .bb1d {
   width: 100%;
   height: 70%;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       var(--building-color1) 50%,
       var(--window-color1)
     );
@@ -80,7 +83,8 @@ body {
 
 .bb1-window {
   height: 10%;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       var(--building-color1),
       var(--window-color1)
     );
@@ -100,7 +104,8 @@ body {
 .bb2b {
   width: 100%;
   height: 100%;
-  background: repeating-linear-gradient(
+  background:
+    repeating-linear-gradient(
       var(--building-color2),
       var(--building-color2) 6%,
       var(--window-color2) 6%,
@@ -111,7 +116,8 @@ body {
 .bb3 {
   width: 10%;
   height: 55%;
-  background: repeating-linear-gradient(
+  background:
+    repeating-linear-gradient(
       90deg,
       var(--building-color3),
       var(--building-color3),
@@ -135,7 +141,7 @@ body {
   height: 5%;
   background-color: var(--building-color4);
 }
-  
+
 .bb4c {
   width: 100%;
   height: 85%;
@@ -165,11 +171,12 @@ body {
   height: 10%;
   background-color: var(--building-color4);
 }
-  
+
 .fb1c {
   width: 100%;
   height: 80%;
-  background: repeating-linear-gradient(
+  background:
+    repeating-linear-gradient(
       90deg,
       var(--building-color4),
       var(--building-color4) 10%,
@@ -212,13 +219,13 @@ body {
   width: 10%;
   height: 35%;
 }
-  
+
 .fb3a {
   width: 80%;
   height: 15%;
   background-color: var(--building-color1);
 }
-  
+
 .fb3b {
   width: 100%;
   height: 35%;
@@ -264,7 +271,8 @@ body {
   height: 33%;
   position: relative;
   right: 10%;
-  background: repeating-linear-gradient(
+  background:
+    repeating-linear-gradient(
       var(--building-color2),
       var(--building-color2) 5%,
       transparent 5%,
@@ -282,7 +290,8 @@ body {
 .fb6 {
   width: 9%;
   height: 38%;
-  background: repeating-linear-gradient(
+  background:
+    repeating-linear-gradient(
       90deg,
       var(--building-color3),
       var(--building-color3) 10%,
@@ -308,8 +317,10 @@ body {
     --window-color3: #777;
     --window-color4: #777;
   }
+
   .sky {
-    background: radial-gradient(
+    background:
+      radial-gradient(
         closest-corner circle at 15% 15%,
         #ccc,
         #ccc 20%,
@@ -318,4 +329,3 @@ body {
       );
   }
 }
-    
