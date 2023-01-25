@@ -53,7 +53,6 @@ body {
     );
 }
 
-/* BACKGROUND BUILDINGS - "bb" stands for "background building" */
 .bb1 {
   width: 10%;
   height: 70%;
@@ -154,7 +153,6 @@ body {
   background-color: var(--window-color4);
 }
 
-/* FOREGROUND BUILDINGS - "fb" stands for "foreground building" */
 .fb1 {
   width: 10%;
   height: 60%;
