@@ -1,21 +1,20 @@
-# FCC CITY-SKYLINE
+# FCC CITY SKYLINE
 
-> A basic HTML and CSS element to demostrate styling.
+> A city skyline webpage using CSS variables to organize styles and reuse them.
 
 ![screenshot](./fcc-docs-city-skyline.netlify.app_.png)
 
-Additional description about the project and its features.
+# This PR adds a city skyline webpage using CSS variables to organize styles and reuse them.
 
 ## Built With
 
 - HTML5 elements
   - `div`.
 - CSS properties
-  - CSS Variables for reusable CSS values,
+  - CSS Positioning `absolute`,
+  - CSS Variables such as `var()` and so on for reusable CSS values,
   - CSS Media Query for page responsiveness using `@media` rule,
-  - CSS Positioning `fixed`,
   - CSS Background for page aesthetic using `background-color`, `background`.
-  - `div`, `body`.
 - Linters
   - [Prettier](https://prettier.io/),
   - [Stylelint](https://stylelint.io/).
@@ -30,7 +29,7 @@ Additional description about the project and its features.
 - Clone the project
 
 ```bash
-git clone https://github.com/moshoodabdullahi/html-css-template.git
+git clone https://github.com/moshoodabdullahi/fcc-city-skyline.git
 ```
 
 - Install Dependencies
@@ -73,7 +72,6 @@ yarn hint
 
 - [CSS Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/css.html)
 - [HTML Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/index.html)
-- [JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
 - [Git Style Guide](https://udacity.github.io/git-styleguide/)
 
 ## 👤 Author
