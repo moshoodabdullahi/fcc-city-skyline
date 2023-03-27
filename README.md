@@ -4,8 +4,6 @@
 
 ![screenshot](./fcc-docs-city-skyline.netlify.app_.png)
 
-# This PR adds a city skyline webpage using CSS variables to organize styles and reuse them.
-
 ## Built With
 
 - HTML5 elements
